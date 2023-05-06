@@ -1,4 +1,4 @@
-# Golang-httpflood ![](https://img.shields.io/badge/Version-2.0-brightgreen.svg) ![](https://img.shields.io/badge/license-MIT-blue.svg)
+# DDOSV4 ![](https://img.shields.io/badge/Version-2.0-brightgreen.svg) ![](https://img.shields.io/badge/license-MIT-blue.svg)
 Using Golang(net/socket) to httpflood
 
 **Warning: Please use command "ulimit -n 999999" before use this in linux**
@@ -33,7 +33,7 @@ Using Golang(net/socket) to httpflood
 
 Then:
 
-    git clone https://github.com/Leeon123/golang-httpflood.git
+    git clone [https://github.com/Leeon123/golang-httpflood.git](https://github.com/SonuModder1/DDOSV4)
 
 Header.txt format:
 
@@ -44,6 +44,6 @@ Header.txt format:
 Or anything else of http header. If you don't have any idea of this please just use "nil" for using default random header.
 ## Usage
 
-    cd golang-httpflood
+    cd DDOSV4
     go build httpflood.go
     ./httpflood  <url> <threads> <get/post> <seconds> <header.txt/nil>
