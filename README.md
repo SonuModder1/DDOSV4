@@ -33,7 +33,7 @@ Using Golang(net/socket) to httpflood
 
 Then:
 
-    git clone [https://github.com/SonuModder1/DDOSV4]
+    git clone https://github.com/SonuModder1/DDOSV4
 
 Header.txt format:
 
